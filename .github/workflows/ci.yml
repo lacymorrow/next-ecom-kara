@@ -6,7 +6,7 @@ jobs:
     name: Build and Test
     env:
       NODE_ENV: test
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
       NEXTAUTH_URL: http://localhost:3000
       NEXTAUTH_SECRET: supersecret
       GITHUB_ID: ${{ secrets.NEXT_AUTH_GITHUB_ID }}

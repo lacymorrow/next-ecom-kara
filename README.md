@@ -21,7 +21,7 @@ To run this project, you will need to add the following environment variables to
 
 ```bash
 # Database URL for prisma
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
+POSTGRES_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
 
 # URL of the website
 NEXTAUTH_URL='http://localhost:3000'
